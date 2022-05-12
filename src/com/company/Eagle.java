@@ -2,7 +2,8 @@ package com.company;
 
 public class Eagle extends Animal{
 
-    public static void fly(){
+    public void fly(){
+        System.out.println(" is flying.");
 
     }
 
@@ -13,6 +14,6 @@ public class Eagle extends Animal{
 
     @Override
     public String toString() {
-        return "Eagle{} ";
+        return "Eagle";
     }
 }

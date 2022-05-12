@@ -2,7 +2,9 @@ package com.company;
 
 public class Turtle extends Animal{
 
+
     public void swim (){
+        System.out.println(" swimming. ");
 
     }
     @Override
@@ -12,6 +14,6 @@ public class Turtle extends Animal{
 
     @Override
     public String toString() {
-        return "Turtle{} ";
+        return "Turtle";
     }
 }

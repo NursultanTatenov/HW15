@@ -3,6 +3,7 @@ package com.company;
 public class Shark extends Animal {
 
     void attack (){
+        System.out.println(" is attacking.");
 
     }
 
@@ -16,6 +17,6 @@ public class Shark extends Animal {
     }
     @Override
     public String toString() {
-        return "Shark{} ";
+        return "Shark";
     }
 }
